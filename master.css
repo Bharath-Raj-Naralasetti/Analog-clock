@@ -1,0 +1,42 @@
+#container{
+   height: 500px;
+   width: 500px;
+   border: 1px solid white;
+   background-image: url(./media/analog_clock.gif);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: relative;
+   left: 450px;
+   top: 100px;
+}
+#sec{
+    
+    height :180px;
+    border: 2px solid black;
+    /* margin: 10px; */
+    transform: rotate(0deg);
+    position: absolute;
+    left: 248px;
+    top: 68px;
+    transform-origin: bottom;
+}
+#min{
+    
+    height: 140px;
+    border: 2px solid black;
+    transform: rotate(0deg);
+    position: absolute;
+    left: 248px;
+    top: 108px;
+    transform-origin: bottom;
+}
+#hours{
+
+    height: 120px;
+    border: 2px solid black;
+    transform: rotate(0deg);
+    position: absolute;
+    left: 248px;
+    top: 127px;
+    transform-origin: bottom;
+}
